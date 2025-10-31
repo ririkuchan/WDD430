@@ -1,0 +1,79 @@
+/* 全体: 読みやすいフォントとカラー。統一された配色にする */
+body {
+  font-family: system-ui, "Inter", "Roboto", sans-serif;
+  background-color: #f8fafc; /* やさしい明るいグレー/ブルー */
+  color: #1e293b;            /* 濃いめのグレーで読みやすい */
+  margin: 0;
+  line-height: 1.5;
+}
+
+/* ヘッダー: アクセントカラーを統一 */
+.site-header {
+  background-color: #1e3a8a; /* ネイビー系アクセント */
+  color: #fff;
+  padding: 1rem 2rem;
+}
+
+.main-nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  margin-right: 1rem;
+}
+
+.content {
+  max-width: 800px;
+  padding: 1.5rem;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #1e3a8a; /* 見出しにも同じアクセントカラー */
+}
+
+.primary-button {
+  background-color: #1e3a8a;
+  color: #fff;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  display: inline-block;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+
+.feature {
+  background-color: #fff;
+  border-radius: 0.75rem;
+  padding: 1rem 1.25rem;
+  margin-top: 2rem;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+}
+
+.hero-image {
+  width: 100%;
+  max-width: 100%;
+  border-radius: 0.75rem;
+  margin-top: 1.5rem;
+  display: block;
+}
+
+.site-footer {
+  background-color: #f1f5f9;
+  color: #475569;
+  text-align: center;
+  font-size: 0.875rem;
+  padding: 2rem 1rem;
+  margin-top: 3rem;
+}
+
+/* モバイルに優しい余白 */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  .site-header {
+    padding: 1rem;
+  }
+}

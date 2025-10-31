@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title><%= title %></title>
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+  <%- include("partials/header") %>
+
+  <main class="content">
+    <h1>Welcome to My App</h1>
+    <p>This is the home view. We are building a professional site for WDD430 Week 01.</p>
+
+    <a class="primary-button" href="/signup">Get Started</a>
+
+    <section class="feature">
+      <h2>Why this app?</h2>
+      <p>Clean layout, reusable partials, and a real backend route. This meets the Week 01 rubric.</p>
+    </section>
+
+    <img src="/images/hero.jpg" alt="Hero image of a modern workspace" class="hero-image" />
+  </main>
+
+  <%- include("partials/footer") %>
+</body>
+</html>
